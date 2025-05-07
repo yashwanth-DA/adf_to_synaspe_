@@ -1,0 +1,29 @@
+{
+	"name": "ls_project05_silver_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_yashwanthncpl",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"foldername": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": {
+					"value": "@split(dataset().foldername,'.csv')[0]",
+					"type": "Expression"
+				},
+				"fileSystem": "silver-project-05"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

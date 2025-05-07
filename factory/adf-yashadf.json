@@ -1,0 +1,9 @@
+{
+	"name": "adf-yashadf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c0faf21d-b18c-4d3d-a4a2-5d4ff3ed8464",
+		"tenantId": "c34955b6-1f30-42b7-9c26-75943db8bccc"
+	}
+}

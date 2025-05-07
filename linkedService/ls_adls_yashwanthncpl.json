@@ -1,0 +1,12 @@
+{
+	"name": "ls_adls_yashwanthncpl",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://yashwanthncpl.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEYyNTA2NERCLTM0NjQtNDNCMC1BMzVELUM0QjIzQkMxQzk5NV80MTM1ZDhkNC1lZDkwLTRkYjMtOWVjZS01YjE3Mjg5OGQxN2IiDQp9"
+		}
+	}
+}
